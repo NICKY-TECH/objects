@@ -102,5 +102,11 @@ const presidentialCandidates = {
     NNPP: 'Rabiu Kwankwaso',
     PDP: 'Atiku Abubakar',
  }
+
+ //loop through the presidentialCandidates array
+
+ for (key in presidentialCandidates){
+    console.log(presidentialCandidates[key] + 'is the presidential candidate of'+' ' + key)
+ }
  
 
